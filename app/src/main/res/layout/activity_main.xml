@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:isScrollContainer="true">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="126dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Click below to pay \n ₹11.00 \n  to Malik ki Dukaan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+
+
+    <Button
+        android:id="@+id/upi"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:text="UPI (Generic OS Intent)"
+        app:backgroundTint="#FF7043"
+        android:background="#FF7043"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/paytm"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Paytm UPI"
+        app:backgroundTint="#29B6F6"
+        android:background="#29B6F6"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upi" />
+
+    <Button
+        android:id="@+id/gpay"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="GooglePay UPI"
+        app:backgroundTint="#1976D2"
+        android:background="#1976D2"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paytm" />
+
+    <Button
+        android:id="@+id/phonepe"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="PhonePe UPI"
+        app:backgroundTint="#8E24AA"
+        android:background="#8E24AA"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gpay" />
+
+    <Button
+        android:id="@+id/bhim"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="BHIM UPI"
+        app:backgroundTint="#F9A825"
+        android:background="#F9A825"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phonepe" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
