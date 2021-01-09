@@ -4,10 +4,15 @@ UPI Smart Intent sample application code.
 Summary:
 - The sample app displays various buttons to handle UPI intent in a smart manner
 - Screenshots:
-    - ![Screenshot showing only two apps as Paytm & PhonePe are not UPI ready](https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true)
-    - images/img1.png
-    - ![Screenshot showing only three apps as now only PhonePe is not UPI ready](https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img2.png?raw=true)
-    - ![Screenshot showing all UPI apps as all now UPI ready](https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img3.png?raw=true)
+    - <p align="center">
+        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true" width="256" title="Screenshot showing only two apps as Paytm & PhonePe are not UPI ready">
+      </p>
+    - <p align="center">
+        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true" width="256" title="Screenshot showing only three apps as now only PhonePe is not UPI ready">
+      </p>
+    - <p align="center">
+        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true" width="256" title="Screenshot showing all UPI apps as all now UPI ready">
+      </p>
 
 - The first button invokes generic OS intent app chooser where Android OS lists all apps that can handle UPI intent
 - The subsequent specific UPI app buttons invoke the specific apps to handle the UPI intent payment
