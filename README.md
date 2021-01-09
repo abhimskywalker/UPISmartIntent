@@ -8,10 +8,10 @@ Summary:
         <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true" width="256" title="Screenshot showing only two apps as Paytm & PhonePe are not UPI ready">
       </p>
     - <p align="center">
-        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true" width="256" title="Screenshot showing only three apps as now only PhonePe is not UPI ready">
+        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img2.png?raw=true" width="256" title="Screenshot showing only three apps as now only PhonePe is not UPI ready">
       </p>
     - <p align="center">
-        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img1.png?raw=true" width="256" title="Screenshot showing all UPI apps as all now UPI ready">
+        <img src="https://github.com/abhimskywalker/UPISmartIntent/blob/master/images/img3.png?raw=true" width="256" title="Screenshot showing all UPI apps as all now UPI ready">
       </p>
 
 - The first button invokes generic OS intent app chooser where Android OS lists all apps that can handle UPI intent
